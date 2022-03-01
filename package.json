@@ -9,7 +9,7 @@
     "start": "node .",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "build": "node-sass --watch src/css/main.scss public/main.css",
-    "cypress:open": "cypress open"
+    "cypress": "cypress open"
   },
   "repository": {
     "type": "git",
